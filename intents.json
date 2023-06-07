@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I assist you today?"]
+    },
+    {
+      "tag": "Accreditation",
+      "patterns": ["what are your accreditation", "what all accreditation do you have", "do your college accredited"],
+      "responses": ["accreditation details can found on our website"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name?", "can you say your name?", "name?"],
+      "responses": ["Jay Bot :)"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["tell me more about your college", "what is your college", "say the details of the college"],
+      "responses": ["Government Engineering College, Wayanad is an engineering college established and managed by the Government of Kerala, India. It is affiliated to the APJ Abdul Kalam Technological University, and is approved by the All India Council for Technical Education (AICTE), New Delhi.[1]"]
+    },
+    {
+      "tag": "website",
+      "patterns": ["what is your college website", "give me your college website", "say the site for website"],
+      "responses": ["gecwyd.ac.in"]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["how can I contact you", "what are your contact details", "give me your contact details", "provide your contact details"],
+      "responses": ["Principal:xxx-xxxx-xxx, Dean:xxx-xxxx-xxx, HOD of CSE:xxx-xxxx-xxx, HOD of ECE :xxx-xxxx-xxx, HOD of EEE:xxx-xxxx-xxx, HOD of ME:xxx-xxxx-xxx"]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How can I apply?", "What are the admission requirements?", "Can you tell me about the application process?"],
+      "responses": ["To apply, you need to submit an application form along with your applied certificates while writing keam exam and other required documents.You can find detailed information on our website or contact .... . The admission requirements vary depending on the program you're interested in, but generally, we consider factors such as academic performance on +2 or equivalent, standardized test scores on keam, and extracurricular activities. On which course are you interested in."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["where is the college?", "where is college situated?", "Can you tell me where the college exactly is?"],
+      "responses": ["Government Engineering College Wayanad  MANANTHAVADY, KERALA 670 644"]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses do you offer?", "Can you tell me about the available majors?", "Are there any specialized programs?, how much seats are available?"],
+      "responses": ["There are four full time B.Tech. courses - Computer Science & Engineering with intake of 66 student, Electronics & Communication Engineering with intake of 132 student, Electrical & Electronics Engineering with intake of 66 student and Mechanical Engineering with intake of 66 student,around 1300+ students are studying. There are two M.Tech. courses. M.Tech. in Communication Engineering & Signal Processing started in 2011 with intake of 18 students. A new M.Tech. course on Computer Science & Engineering with specialization in Networks and Security started in 2014 with intake of another 18 students.[2] B.Tech. Course in Computer Science & Engineering has been accredited by NBA(National Board of Accreditation) from 2017 to 2021."]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": ["How can I apply for financial aid?", "Are scholarships available?", "Can you provide information about tuition fees?"],
+      "responses": ["To apply for financial aid, you need to fill out the financial aid application form. Scholarships are available for eligible students. We have both merit-based and need-based scholarships. The tuition fees vary depending on the program and your residency status. You can find detailed information about financial aid and tuition fees on our website or contact our financial aid office for personalized assistance."]
+    },
+    {
+      "tag": "campus_facilities",
+      "patterns": ["What are the campus facilities?", "Tell me about the library", "Are there any sports facilities?"],
+      "responses": ["Our campus is equipped with state-of-the-art facilities. We have a well-stocked library with an extensive collection of books, journals, and online resources to support your studies. Additionally, we have sports facilities such as a gymnasium, sports fields, and fitness centers for students to stay active and participate in various sports and recreational activities. we also many clubs to promote student activity"]
+    },
+    {
+      "tag": "academic_support",
+      "patterns": ["Is there academic support available?", "How can I get tutoring?", "Tell me about the writing center"],
+      "responses": ["Yes, we offer academic support services to help you succeed in your studies. We have tutoring programs where you can get assistance in specific subjects. Our writing center provides guidance on improving your writing skills and offers feedback on your assignments. We also have study groups, workshops, and academic advisors who can provide guidance and support throughout your academic journey."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Can you provide information about on-campus hostel facility?", "What are the hostel options?", "How do I apply for hostel?"],
+      "responses": ["We offer on-campus hostel facilities for most of the students the rest of students or those who not interested in on-campus hostel have private hostels nearby college. On-campus hostel include dormitories, mess with cook and bathroom with cleaning staffs , . To apply for housing, you need to submit a hostel application form within the specified deadline. We provide many staff service such as warden, security, cleaning staffs, and mess staffs. Availability is mainly based on merit and distance of the candidate coming from . More information about on-campus hostel can be found on our website or warden details are...."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Thank you", "Goodbye", "See you later"],
+      "responses": ["You're welcome! If you have any more questions, feel free to ask. Goodbye!"]
+    }
+  ]
+}
